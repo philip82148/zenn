@@ -1,3 +1,3 @@
 git a .
-git cm "update"
+git cm "${1:-update}"
 git push origin main
